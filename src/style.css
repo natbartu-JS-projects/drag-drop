@@ -23,6 +23,7 @@ body {
   margin: 10px;
   border: solid 3px var(--dark-color);
   background: var(--white-color);
+  border-radius: 10px;
 }
 
 .fill {
