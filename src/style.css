@@ -1,3 +1,7 @@
+:root {
+  --white-color: #fff;
+  --dark-color: #333;
+}
 
 * {
   box-sizing: border-box;
@@ -17,8 +21,8 @@ body {
   height: 150px;
   width: 150px;
   margin: 10px;
-  border: solid 3px #333;
-  background: #fff;
+  border: solid 3px var(--dark-color);
+  background: var(--white-color);
 }
 
 .fill {
@@ -26,6 +30,16 @@ body {
   height: 145px;
   width: 145px;
   cursor: pointer;
+}
+
+.hold {
+  border: solid 5px var(--white-color);
+}
+
+.hovered {
+  background-color: var(--dark-color);
+  border-color: var(--white-color);
+  border-style: dashed;
 }
 
 /* media query for the smaller screen size */
