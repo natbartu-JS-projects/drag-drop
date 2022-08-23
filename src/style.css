@@ -21,15 +21,16 @@ body {
   height: 150px;
   width: 150px;
   margin: 10px;
-  border: solid 3px var(--dark-color);
+  border: solid 6px var(--dark-color);
   background: var(--white-color);
   border-radius: 10px;
 }
 
 .fill {
-  background-image: url('https://source.unsplash.com/random/150ex150px');
-  height: 145px;
-  width: 145px;
+  background-image: url('https://source.unsplash.com/random/150px150px');
+  height: 138px;
+  width: 138px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
