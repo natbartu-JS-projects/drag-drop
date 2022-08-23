@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: aqua;
+  background-color: #e705e4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,7 +39,7 @@ body {
 .hovered {
   background-color: var(--dark-color);
   border-color: var(--white-color);
-  border-style: dashed;
+  border-style: double;
 }
 
 /* media query for the smaller screen size */
